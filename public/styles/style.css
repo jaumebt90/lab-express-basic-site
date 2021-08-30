@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 15px;
+}
+
+.home{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.text{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:justify;
+}
+
+.filmBox{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+
+.filmBox h3{
+    justify-content: center;
+    display: flex;
+}
